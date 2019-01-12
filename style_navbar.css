@@ -1,0 +1,28 @@
+.navbar{
+  height: 50px;
+  background-color: #b8beb8;
+  border-bottom: 1px green solid;
+}
+.menus{
+  list-style-type: none;
+}
+.menus a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.menus li{
+  float: left;
+  width: 20%;
+}
+.menus li:last-child{
+  display: none;
+}
+.menus a:hover{
+  background-color: #d6f5d6;
+  color: grey;
+  border-bottom: 5px green solid;
+}

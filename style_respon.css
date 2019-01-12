@@ -1,0 +1,25 @@
+@media screen and (max-width: 960px) {
+  .col{
+    flex: 50%;
+    max-width: 50%;
+  }
+  .inner{
+    max-width: 750px;
+  }
+  .menus li:not(:first-child){
+    display: none;
+  }
+  .menus li:last-child{
+    display: block;
+    float: right;
+  }
+}
+@media screen and (max-width: 700px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .inner{
+    max-width: 500px;
+  }
+}

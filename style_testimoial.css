@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+.toptitle{
+  font-size: 35px;
+  font-family: 'Kdam Thmor', cursive;
+}
+.testimoials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border{
+  width: 160px;
+  height: 5px;
+  background-color: #6ab04c;
+  margin: 26px auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimoial{
+  background: #fff;
+  padding: 30px;
+}
+
+.testimoial img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.testimoial p{
+  font-family: 'Battambang', cursive;
+}
+.name{
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 25px;
+  font-family: 'Kdam Thmor', cursive;
+}
+.stars{
+  margin-bottom: 20px;
+  color: #6ab04c;
+}
